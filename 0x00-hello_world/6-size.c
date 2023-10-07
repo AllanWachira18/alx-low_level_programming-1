@@ -2,6 +2,10 @@
 /**
  * main - A program that prints the size of various computer types
  *
+ *Description: This program prints the size of different data types
+ *              on the computer it's compiled and run on.
+ *
+ *
  * Return 0 (Success)
  */
 int main(void)
