@@ -7,15 +7,15 @@
  */
 int main(void)
 {
-    int digit = 0;
+	int digit = 0;
 
-    while (digit <= 9)
-    {
-        putchar(digit + '0');  /* Convert the integer to a character */
-        digit++;
-    }
+	while (digit <= 9)
+	{
+		putchar(digit + '0');  /* Convert the integer to a character */
+		digit++;
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return (0);
+	return (0);
 }
