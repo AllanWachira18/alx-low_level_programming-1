@@ -1,17 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    char digit = '0';
+    putchar('0');
 
-    while (digit <= '9') {
-        putchar(digit);
-
-        if (digit != '9') {
-            putchar(',');
-            putchar(' ');
-        }
-
-        digit++;
+    for (int i = 1; i < 10; i++) {
+        putchar(',');
+        putchar(' ');
+        putchar('0' + i);
     }
 
     putchar('\n');
