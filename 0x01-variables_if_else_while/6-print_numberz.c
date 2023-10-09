@@ -7,7 +7,14 @@
  */
 int main(void)
 {
-    putchar('0' + 0);  /* Print '0' character using its ASCII value */
+    char digit = '0';
+
+    while (digit <= '9')
+    {
+        putchar(digit);
+        digit++;
+    }
+
     putchar('\n');
 
     return (0);
