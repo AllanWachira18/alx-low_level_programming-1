@@ -1,15 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int i;
+    char digit = '0';
 
-    for (i = 0; i < 9; i++) {
-        putchar('0' + i);
-        putchar(',');
-        putchar(' ');
+    while (digit <= '9') {
+        putchar(digit);
+
+        if (digit != '9') {
+            putchar(',');
+            putchar(' ');
+        }
+
+        digit++;
     }
 
-    putchar('9');
     putchar('\n');
 
     return 0;
