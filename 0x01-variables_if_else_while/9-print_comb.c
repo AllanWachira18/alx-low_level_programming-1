@@ -1,17 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    int i = 0;
+int main(void)
+{
+    int digit = 0;
 
-    putchar('0');
-
-    for (i = 1; i < 10; i++) {
-        putchar(',');
-        putchar(' ');
-        putchar('0' + i);
+    while (digit <= 9)
+    {
+        putchar(digit + '0'); // Convert digit to character and print
+        if (digit < 9)
+        {
+            putchar(','); // Print comma
+            putchar(' '); // Print space
+        }
+        digit++;
     }
 
-    putchar('\n');
+    putchar('\n'); // Print a newline character
 
-    return 0;
+    return (0);
 }
