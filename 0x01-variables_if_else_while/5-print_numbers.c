@@ -11,7 +11,7 @@ int main(void)
 
     while (digit <= 9)
     {
-        putchar(digit + '0');  // Convert the integer to a character
+        putchar(digit + '0');  /* Convert the integer to a character */
         digit++;
     }
 
