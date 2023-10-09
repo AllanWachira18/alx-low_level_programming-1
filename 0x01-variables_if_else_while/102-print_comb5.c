@@ -15,7 +15,7 @@
  * You can only use putchar eight times maximum in your code.
  * No variables of type char are allowed.
  *
- * Return: Always 0 (Success)
+ * Return: (0) - Always 0 (Success)
  */
 int main(void)
 {
@@ -44,5 +44,5 @@ int main(void)
 
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
