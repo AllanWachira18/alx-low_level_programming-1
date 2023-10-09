@@ -1,18 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int i, j;
+    for (int i = 0; i < 10; i++) {
+        putchar('0' + i);
 
-    for (i = 0; i < 10; i++) {
-        for (j = i; j < 10; j++) {
-            /* Print the first digit */
-            putchar('0' + i);
-
-            /* Check if we need to print a separator and space */
-            if (i != j) {
-                putchar(',');
-                putchar(' ');
-            }
+        if (i != 9) {
+            putchar(',');
+            putchar(' ');
         }
     }
 
