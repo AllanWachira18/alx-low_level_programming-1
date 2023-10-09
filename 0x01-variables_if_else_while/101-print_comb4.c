@@ -12,7 +12,7 @@
  * Print only the smallest combination of four digits.
  * Numbers should be printed in ascending order, with four digits.
  * You can only use the putchar function (every other function (printf, puts, etc…) is forbidden).
- * You can only use putchar seven times maximum in your code.
+ * You can only use putchar six times maximum in your code.
  * You are not allowed to use any variable of type char.
  *
  * Return: Always 0 (Success)
@@ -31,8 +31,6 @@ int main(void)
 				{
 					putchar(a + '0');
 					putchar(b + '0');
-					putchar(',');
-					putchar(' ');
 					putchar(c + '0');
 					putchar(d + '0');
 
