@@ -6,16 +6,16 @@ int main(void)
 
     while (digit <= 9)
     {
-        putchar(digit + '0'); // Convert digit to character and print
+        putchar(digit + '0'); /* Convert digit to character and print */
         if (digit < 9)
         {
-            putchar(','); // Print comma
-            putchar(' '); // Print space
+            putchar(','); /* Print comma */
+            putchar(' '); /* Print space */
         }
         digit++;
     }
 
-    putchar('\n'); // Print a newline character
+    putchar('\n'); /* Print a newline character */
 
-    return (0);
+    return 0;
 }
