@@ -1,19 +1,14 @@
 #include <stdio.h>
 
-int main() {
-    int i;
+int main(void) {
+	int i;
 
-    /* Loop from 0 to 15 (base 16) */
-    for (i = 0; i < 16; i++) {
-        /* Convert the current number to a lowercase hexadecimal character */
-        char hex_char = (i < 10) ? ('0' + i) : ('a' + i - 10);
+	for (i = 0; i < 16; i++) {
+		char hex_char = (i < 10) ? ('0' + i) : ('a' + i - 10);
+		putchar(hex_char);
+	}
 
-        /* Use putchar to print the character */
-        putchar(hex_char);
-    }
+	putchar('\n');
 
-    /* Use putchar to print a newline character */
-    putchar('\n');
-
-    return 0;
+	return (0);
 }
