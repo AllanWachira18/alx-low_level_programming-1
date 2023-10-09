@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    for (int i = 0; i < 10; i++) {
-        putchar('0' + i);
+    int i;
 
-        if (i != 9) {
-            putchar(',');
-            putchar(' ');
-        }
+    for (i = 0; i < 9; i++) {
+        putchar('0' + i);
+        putchar(',');
+        putchar(' ');
     }
 
+    putchar('9');
     putchar('\n');
 
     return 0;
